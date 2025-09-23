@@ -3,9 +3,14 @@ body {
     color: aqua;
 }
 
-h1{
-    font: size 30px; ;
+header{
+ border-buttom: solid 2px aquamarine;
+ padding: 20px;;
 }
+  
+h1 {
+    font-size: 30xp;
+} 
 
 p {
     color: chocolate;
