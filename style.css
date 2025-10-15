@@ -1,18 +1,47 @@
 body {
-    background-color: black;
-    color: aqua;
+    background-color: darkmagenta; /* cor de fundo */
+    color:azure; /*cor da letra */
+    margin: 0px; /* espaço antes da borda */
 }
 
-header{
- border-buttom: solid 2px aquamarine;
- padding: 20px;;
+header {
+    border-bottom: solid 2px white;
+    padding: 20px; /* espaçamento depois da borda e antes do conteúdo */
+    font-size: 32px;
+    color: aliceblue;
 }
-  
+
+.chamada {
+    background-color: #35207e;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
 h1 {
-    font-size: 30xp;
-} 
+    font-size: 30px;
+}
 
 p {
-    color: chocolate;
+    color: aqua;
     font-size: 16px;
 }
+img {
+    height: 200px;
+}
+ categoria-videos{
+    display: flex;
+    overflow: auto;
+
+ }
+ .categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+  
+.categoria-videos img
